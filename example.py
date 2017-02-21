@@ -7,6 +7,7 @@ def reverse_words(s):
     return ' '.join(words_reversed)
 
 
+
 def test_reverse_words():
     assert reverse_words('dogs hate cats') == 'cats hate dogs'
     assert reverse_words('dog eat dog') == 'dog eat dog'
