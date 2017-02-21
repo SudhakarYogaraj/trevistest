@@ -23,6 +23,12 @@ def get_word_lengths(s):
 #   return [len(word) for word in s.split()]
     return None
 
+def get_word_lengths(s):
+    """
+    Returns a list of integers representing
+    the word lengths in string s.
+    """
+    return [len(w) for w in s.split()]
 
 # uncomment this function in step 6
 def test_get_word_lengths():
